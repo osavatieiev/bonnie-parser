@@ -1,0 +1,25 @@
+Method,Sub name,Concurrency,bonnie_vm,VDC_Ksec,VDC_%CPU,VDC_Latency
+Sequential Output,Block,0,bonnie_vm,75053,14,185ms,,,,,,,,,,,,
+Sequential Output,Rewrite,0,bonnie_vm,12866,3,127s,,,,,,,,,,,,
+Sequential Input,Block,0,bonnie_vm,17545,1,127s,,,,,,,,,,,,
+Random,Seeks,0,bonnie_vm,922.9,16,1462ms,,,,,,,,,,,,
+Method,Sub name,Concurrency,bonnie_vm,VDC_Ksec,VDC_%CPU,VDC_Latency
+Sequential Output,Block,1,bonnie_vm,70879,14,250ms,,,,,,,,,,,,
+Sequential Output,Rewrite,1,bonnie_vm,21129,5,303ms,,,,,,,,,,,,
+Sequential Input,Block,1,bonnie_vm,13885,0,127s,,,,,,,,,,,,
+Random,Seeks,1,bonnie_vm,890.6,14,1653ms,,,,,,,,,,,,
+Method,Sub name,Concurrency,bonnie_vm,VDC_Ksec,VDC_%CPU,VDC_Latency
+Sequential Output,Block,2,bonnie_vm,70395,14,215ms,,,,,,,,,,,,
+Sequential Output,Rewrite,2,bonnie_vm,13000,3,127s,,,,,,,,,,,,
+Sequential Input,Block,2,bonnie_vm,17589,1,127s,,,,,,,,,,,,
+Random,Seeks,2,bonnie_vm,882.3,14,1799ms,,,,,,,,,,,,
+Method,Sub name,Concurrency,bonnie_vm,VDC_Ksec,VDC_%CPU,VDC_Latency
+Sequential Output,Block,3,bonnie_vm,34681,7,122s,,,,,,,,,,,,
+Sequential Output,Rewrite,3,bonnie_vm,16052,3,127s,,,,,,,,,,,,
+Sequential Input,Block,3,bonnie_vm,13826,0,127s,,,,,,,,,,,,
+Random,Seeks,3,bonnie_vm,864.8,15,2061ms,,,,,,,,,,,,
+Method,Sub name,Concurrency,bonnie_vm,VDC_Ksec,VDC_%CPU,VDC_Latency
+Sequential Output,Block,4,bonnie_vm,72619,14,210ms,,,,,,,,,,,,
+Sequential Output,Rewrite,4,bonnie_vm,21903,5,279ms,,,,,,,,,,,,
+Sequential Input,Block,4,bonnie_vm,13876,0,127s,,,,,,,,,,,,
+Random,Seeks,4,bonnie_vm,908.8,13,1531ms,,,,,,,,,,,,
